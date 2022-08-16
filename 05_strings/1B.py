@@ -4,9 +4,7 @@ def find3MiddleChars(string):
         return string[middleIndex-1:middleIndex+2]
     else:
         return string
-
-
-
+    
 str1 = "JhonDipPeta"
 str2 = "JaSonAy"
 str3 = "aaBBcc"
