@@ -1,0 +1,9 @@
+{
+    "python.autoComplete.extraPaths": [
+        // "env/bin/python",
+    ],
+    // "python.linting.pycodestylePath": "env/bin/python",
+    // "python.linting.pylintPath": "env/bin/python",
+    "python.linting.pydocstyleEnabled": true,        
+    "python.linting.pylintEnabled": true,
+}
