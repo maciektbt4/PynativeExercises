@@ -28,7 +28,7 @@ for file in files:
     DEST_FILE_PATH = file
     source_txt = ""
     dest_txt = []
-    with open(SOURCE_FILE_PATH, "r") as fp:
+    with open(SOURCE_FILE_PATH, "r", encoding="utf-8") as fp:
         source_txt = fp.readlines()
         dict_keys = dict_pl_diacritics.keys()    
         for line in source_txt:
@@ -40,5 +40,5 @@ for file in files:
                     new_line += char
             dest_txt.append(new_line)
 
-    with open(DEST_FILE_PATH, "w") as fp:
+    with open(DEST_FILE_PATH, "w", encoding="utf-8") as fp:
         fp.writelines(dest_txt)
