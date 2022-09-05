@@ -1,17 +1,14 @@
 import os
 import re
 
-dict_pl_diacritics = {"¹": "ą", "ê": "ę", "æ": "ć", "³": "ł", "œ": "ś", "Ÿ": "ź", "¯":"Ż", "¿": "ż"}
+dict_pl_diacritics = {"¹": "ą", "ê": "ę", "æ": "ć", "³": "ł", "£": "Ł", "ñ": "ń", "œ": "ś", "Ÿ": "ź", "¯":"Ż", "¿": "ż"}
 files_types = ["txt", "src"]
 
 print(os.getcwd())
 
 files = os.listdir()
-print(files)
-
 
 for file in files:
-    # for type in files_types:
     txt_type = False
     for type in files_types:
         if file.__contains__(type):
