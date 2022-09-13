@@ -7,19 +7,6 @@ files_types = ["txt", "srt"]
 print(os.getcwd())
 
 files = os.listdir()
-
-files=[
-    'folder.jpg', 
-    'House.of.the.Dragon.S01E01.1080p.HMAX.WEB-DL.DDP5.1.Atmos.x264-CMRG.srt', 
-    'house.of.the.dragon.s01e02.1080p.web.h264-cakes[eztv.re].mkv',
-    'house.of.the.dragon.s01e02.1080p.web.h264-cakes[eztv.re].srt', 
-    'house.of.the.dragon.s01e03.1080p.web.h264-cakes[eztv.re].mkv', 
-    'house.of.the.dragon.s01e03.1080p.web.h264-cakes[eztv.re].srt',
-    'House.of.the.Dragon.S01E04.Episode.4.1080p.HMAX.WEB-DL.DDP5.1.Atmos.H.264-SMURF.mkv',
-    'House.of.the.Dragon.S01E04.Episode.4.1080p.HMAX.WEB-DL.DDP5.1.Atmos.H.264-SMURF.srt',
-    'House.of.the.Dragons.S01E01.The.Heirs.of.the.Dragon.2160p.HMAX.WEBRip.DDP5.1.Atmos.HDR.X.265-EVO[eztv.re].mkv', 
-    'remove_pl_diacritic.py']
-
 files_reduced = []
 
 for file in files:
